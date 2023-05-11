@@ -1,0 +1,48 @@
+* {
+    text-decoration: none;
+}
+
+img{
+    height: 70px;
+}
+
+.navbar{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul a{
+    color: rgb(252, 218, 28);
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+}
+
+button {
+    background-color: grey;
+    border-radius: 15px;
+    padding: 8px;
+    width: 90px; 
+}
+
+button a{
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    color:white;
+}
+
+button a:hover{
+    color: maroon;
+}
